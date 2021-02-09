@@ -12,14 +12,18 @@
 
 		<label>제목</label>
 		${view.title}<br /> 
+		
 		<label>작성자</label>
 		${view.writer}<br /> 
+		
 		<label>내용</label><br /> 
 		${view.content}<br />
 
-		<!-- <button type="submit">작성</button>  -->
-
 	</form>
+
+	<div>
+		<a href="/board/modify?bno=${view.bno}">게시물 수정</a>
+	</div>
 
 </body>
 </html>
