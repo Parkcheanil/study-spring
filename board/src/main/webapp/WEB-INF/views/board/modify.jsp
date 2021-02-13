@@ -8,6 +8,8 @@
 </head>
 <body>
 
+
+
 	<form method="post">
 
 		<label>제목</label> 
